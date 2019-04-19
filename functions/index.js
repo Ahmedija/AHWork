@@ -33,10 +33,10 @@ exports.userJoined = functions.auth.user()
         return admin.firestore().collection('users')
             .doc(user.uid).get().then(doc => {
 
-                const newuser = doc.data();
+                const newUser = doc.data();
                 const notification = {
                     content: 'Joined AHWork',
-                    user: `${newUser.firstName} ${newuser.lastName}`,
+                    user: `${newUser.firstName} ${newUser.lastName}`,
                     time: admin.firestore.FieldValue.serverTimestamp()
                 }
 

@@ -20,7 +20,7 @@ const PostDetails = (props) => {
 
                     <div className="card-action grey lighten-4 grey-text">
                         <div>Posted by {post.authorFirstName} {post.authorLastName}</div>
-                        <div>{moment(post.createdAt.toDate()).startOf('hour').fromNow()}</div>
+                        <div>{moment(post.createdAt.toDate()).fromNow()}</div>
                     </div>
                 </div>
             </div>
