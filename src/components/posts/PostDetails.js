@@ -15,11 +15,12 @@ const PostDetails = (props) => {
                 <div className="card z-debth-0">
                     <div className="card-content">
                         {/* <span className="card-title">Post title - {id}</span> */}
+                        <div>Posted by {post.authorFirstName} {post.authorLastName}</div>
                         <p>{post.content}</p>
                     </div>
 
                     <div className="card-action grey lighten-4 grey-text">
-                        <div>Posted by {post.authorFirstName} {post.authorLastName}</div>
+
                         <div>{moment(post.createdAt.toDate()).fromNow()}</div>
                     </div>
                 </div>

@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@google-cloud/storage": "^2.5.0",
+    "axios": "^0.18.0",
+    "dropzone": "^5.5.1",
     "firebase": "^5.9.3",
     "moment": "^2.24.0",
     "react": "^16.8.6",

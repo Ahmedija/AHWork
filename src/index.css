@@ -17,15 +17,39 @@ body {
 }
 
 form{
-  padding: 20px;
-  margin-top: 60px;
+  padding: 5px;
 }
 
 form button, form h5{
-  margin: 20px 0;
+  margin: 20px 0px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.aboutUserCard{
+  margin: 10%;
+  margin-right: 3rem;
+  width: 175px;
+}
+
+
+.user{
+}
+
+.post{
+  width: 30rem;
+  border: 1px solid red;
+  
+}
+
+
+
+
+.profileImage{
+  margin-top: 12rem;
+  margin-left: 20rem;
+}
+

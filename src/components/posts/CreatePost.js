@@ -18,7 +18,7 @@ class CreatePost extends Component {
         e.preventDefault();
         //console.log(this.state)
         this.props.createPost(this.state)
-        this.props.history.push('/')
+        //this.props.history.push('/')
     }
 
     render() {
@@ -26,7 +26,7 @@ class CreatePost extends Component {
         if (!auth.uid) return <Redirect to='/signin' />
 
         return (
-            <div className="container">
+            <div className="post">
                 <form onSubmit={this.handleSubmit} className="white">
                     <h5 className="grey-text text-darken-3">Create post</h5>
                     <div className="input-field">
